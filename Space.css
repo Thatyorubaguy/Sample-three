@@ -1,0 +1,523 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 5px 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    /* nav{
+
+    } */
+.nav-bar{
+    display: flex;
+  /*   background-color: whitesmoke; */
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+/*     border-bottom:green 1px solid; */
+    padding: 0 10px;
+    height: 50px;
+    width: 100%;
+}
+.logo img{
+    max-width: 50%;
+}
+.burger-menu .line-1{
+    width: 10px;
+    height: 3px;
+    background-color: black;
+    margin:0 0 2px 0 ;
+}
+.burger-menu .line-2{
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    margin:0 0 2px 0 ;
+}
+.burger-menu .line-3{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+}
+.links{
+    display: none;
+}
+.sign-up{
+    display: none;
+}
+.header{
+    text-align: center;
+}
+.header img{
+    width: 7px;
+    height: 9px;
+}
+.first-text{
+    text-align: center;
+}
+.icon-image{
+    box-sizing: border-box;
+    /* border: 2px red solid; */
+    width: 100%;
+    padding: 5px 7px;
+}
+.icon-image img{
+   /*  border: 2px green solid; */
+    width: 100%;
+}
+.phones{
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 5px 8px;
+    width: 100%;
+ /*    border: 2px solid blue; */
+}
+.phones img{
+    width: 100%;
+    /* border: 2px orange solid; */
+}
+.files{
+    box-sizing: border-box;
+    width: 100%;
+   /*  border: 2px solid yellowgreen; */
+    margin: 15px auto;
+    padding: 5px;
+}
+.files img{
+    width: 100%;
+   /*  border: 2px solid lightsteelblue; */
+}
+.sub-heading{
+   /*  text-align: center; */
+    word-spacing: 1px;
+}
+#paragraph{
+   /*  border: 2px solid red; */
+    text-align: left;
+}
+.upload{
+    width: 100%;
+    box-sizing: border-box;
+  /*   border: red 2px solid; */
+    padding: 5px;
+}
+.upload img{
+    width: 100%;
+    box-sizing: border-box;
+  /*   border: blue 2px solid; */
+}
+#register{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+  /*   border: 2px yellow solid; */
+}
+.sub-heading img{
+    width: 7px;
+    height: 9px;
+}
+.get-started{
+    display: block;
+/*    border: 2px solid goldenrod; */
+}
+.get-started input{
+    background-color:rgb(17, 123, 17);
+    border: 0;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 7px;
+    margin: 5px auto;
+}
+.lady{
+    width: 100%;
+  /*   border: 2px brown solid; */
+    box-sizing: border-box;
+    padding: 5px;
+}
+.lady-mic{
+    width: 100%;
+/*     border: teal solid 2px; */
+    box-sizing: border-box;
+    padding: 5px;   
+}
+.lady-mic img{
+    width: 100%;
+ /*    border: blueviolet solid 2px; */
+}
+.subscribe{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 ;
+  /*   border: 2px green solid; */
+}
+.subscribe input{
+    border:0;
+    margin: 5px auto;
+}
+.email{
+    box-sizing: border-box;
+    background-color: rgb(238, 232, 232);
+    border-radius: 5px;
+    padding:7px;
+    width: 100%;
+    text-align:left;
+}
+.button{
+    box-sizing: border-box;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 5px;
+    padding:8px;
+    width: 100%;
+    text-align: center;
+}
+/* Last section of the body */
+.top-users{
+    text-align: center;
+}
+#users{
+   /*  background-color: rgb(231, 221, 221); */
+  /*   border: 2px blue solid; */
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+}
+#users .mike{
+   display: none;
+}
+.first-avatar{
+    display: none;
+}
+#users .stella{
+  /*   border: 2px green solid; */
+    background-color: rgb(231, 221, 221);
+}
+#users .anonymous{
+    display: none;
+}
+#users p{
+   /*  border: 2px green solid; */
+    text-align: center;
+    margin: 10px 0;
+}
+#users .second-avatar{
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(214, 208, 208);
+   /*  border: 2px green solid; */
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+}
+.second-avatar img{
+    background-color:rgb(195, 157, 195);
+    padding: 5px 0;
+    margin: 3px 0;
+    width: 30px;
+    border-radius: 100%;
+    border: 0;
+}
+/* Footer begins */
+#footer{
+    box-sizing: border-box;
+    background-color:rgb(48, 47, 47);
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+}
+#footer .sub-footer{
+  /*   border: 2px green solid; */
+    width: 100%;
+}
+.footer-one img{
+    width: 70px;
+    margin-top: 15px;
+}
+#social{
+    width: 150px;
+}
+.footer-two p span{
+    color: green;
+    font-weight:bolder;
+    font-size: small;
+}
+.footer-three p span{
+    color: green;
+    font-weight:900;
+    font-size: small;
+}
+@media (min-width:768px) and (max-width:1024px){
+    .container{
+        padding: 0 20px;
+    }
+    #body{
+        padding: 0 100px;
+    }
+    .nav-bar{
+        display: flex;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .links{
+        display: contents;
+    }
+    .links ul{
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        margin-right: -90px;
+    }
+
+    .links ul li{
+        margin: 0 10px;
+    }
+    .links ul li a{
+        text-decoration: none;
+    }
+    .links ul li a:hover{
+        border-bottom:2px solid green;
+    }
+    .sign-up{
+        display: contents;
+    }
+    .sign-up button {
+        background-color: green;
+        border: 0;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .sign-up a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .header{
+        font-size: 3em;   
+    }
+    .header img{
+            width: 15px;
+            height: 18px;
+    }
+    .first-text{
+        margin-top: -25px;
+        font-size: 1.3em;
+    }
+    .icon-image{
+        box-sizing: border-box;
+        /* border: 2px red solid; */
+        width: 100%;
+        padding: 5px 7px;
+    }
+    .icon-image img{
+       /*  border: 2px green solid; */
+        text-align: center;
+        margin: 20px auto;
+    }
+    .phones{
+        box-sizing: border-box;
+        margin: 10px auto;
+        padding: 5px 8px;
+        width: 100%;
+        text-align: center;
+       /*  border: 2px solid blue; */
+    }
+    .phones img{
+        width: 50%;
+        margin: 2px auto;
+       /*  border: 2px orange solid; */
+    }
+    #column-one{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    /*     border: 1px solid red; */
+        margin: 30px auto;
+        padding: 0;
+
+    }
+    .files{
+        box-sizing: border-box;
+        width: 150%;
+       /*  border: 2px solid yellowgreen; */
+        margin: 0;
+    }
+    .files img{
+        width: 100%;
+        height: 170px;
+      /*   border: 2px solid lightsteelblue; */
+    }
+    .files-text{
+      /*   border: 2px solid lightsteelblue; */
+        margin-left: 20px;
+    }
+    /* .files-text h3{
+        border: 2px solid lightsteelblue;
+    } */
+    .files-text p{
+     /*    border: 2px solid lightsteelblue; */
+        font-size: 1em;
+    }
+    #column-two{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        margin: 30px auto;
+        padding: 0;
+    }
+    .upload{
+        box-sizing: border-box;
+        width: 150%;
+       /*  border: red 2px solid; */
+        padding: 0;
+        float: right;
+
+    }
+    .upload img{
+     /*    float: right; */
+        width: 100%;
+        height: 220px;
+        margin: 5px 0;
+      /*   border: blue 2px solid; */
+    }
+    .upload-text{
+        float: left;
+        /* border: 1px solid green; */
+        margin-left: 20px;
+    }
+    #register{
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+      /*   border: 2px yellow solid; */
+    }
+    .register-div{
+        display: flex;
+        margin-top: -25px;
+    }
+    .sub-heading img{
+        width: 7px;
+        height: 9px;
+    }
+    .get-started{
+        display: block;
+     /*    border: 2px solid goldenrod; */
+    }
+    .get-started input{
+        background-color:rgb(17, 123, 17);
+        border: 0;
+        padding: 8px 12px;
+        color: white;
+        border-radius: 7px;
+        margin: 5px auto;
+    }
+    .lady{
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+      /*   border: 2px brown solid; */
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 20px auto;
+    }
+    .lady-mic{
+        margin-right: 5px;
+    }
+    .top-users{
+        text-align: center;
+    }
+    #users{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     /* border: 2px solid red; */
+    }
+    #users .mike{
+        display: block;
+    background-color: rgb(231, 221, 221);
+       /*  border: 2px solid blue; */
+        margin: 20px 15px;
+    }
+    #users .stella{
+       /*  border: 2px green solid; */
+        margin: 0 15px;
+    }
+    #users .anonymous{
+        display: block;
+    background-color: rgb(231, 221, 221);
+       /*  border: 2px green solid; */
+        margin: 20px 15px;
+
+    }
+     #users .first-avatar{
+        display:flex;
+        position: relative;
+        bottom: 20px;
+        background-color: rgb(214, 208, 208);
+      /*   border: 2px green solid; */
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .first-avatar img{
+        background-color:rgb(155, 164, 213);
+        padding: 5px 2px;
+        margin:3px auto;
+        width: 30px;
+        height: 20px;
+        border-radius: 100%;
+        border: 0;
+    }
+    #users .second-avatar{
+        position: relative;
+        bottom: 20px;
+        background-color: rgb(214, 208, 208);
+        /* border: 2px green solid; */
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        height: 35px;
+        border-radius: 5px;
+    }
+    .second-avatar img{
+        background-color:rgb(195, 157, 195);
+        padding: 5px 0;
+        margin: 3px 0;
+        width: 30px;
+        border-radius: 100%;
+        border: 0;
+    }
+    #users .third-avatar{
+        position: relative;
+        bottom: 20px;
+        background-color: rgb(214, 208, 208);
+      /*   border: 2px green solid; */
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        height: 35px;
+        border-radius: 5px;
+    }
+   /*  #footer{
+        box-sizing: border-box;
+        background-color:rgb(48, 47, 47);
+        color: white;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    #footer .sub-footer #info{
+        display: flex;
+        /*   border: 2px green solid; */
+          width: 100%;
+          padding: 0 100px;
+      } */
+}
